@@ -1,36 +1,51 @@
 {
   "expo": {
-    "name": "ven-app-quiz",
+    "name": "Venezuela Quiz",
     "slug": "ven-app-quiz",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+     "assetBundlePatterns": [
+      "assets/images/**/*"
+    ],
+    "icon": "./assets/images/venequizlogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#620011"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "icon": "./assets/images/venequizlogo.png",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage":"./assets/images/bandera1024.png",
+        "backgroundColor": "#620011"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.venomz20.venappquiz"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": ""
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6e823148-dd8a-4032-9cda-cbb3d11eda83"
+      }
     }
   }
 }

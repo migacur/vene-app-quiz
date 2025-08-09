@@ -2,11 +2,16 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "@/*": ["./*"]
+    },
+    "types": ["react", "react-native", "jest"],
+    "jsx": "react-native",
+    "skipLibCheck": true,
+    "moduleResolution": "node",  // Mantén "node" (no uses "node16")
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
   "include": [
     "**/*.ts",
