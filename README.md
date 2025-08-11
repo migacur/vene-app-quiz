@@ -1,4 +1,5 @@
-# Venezuela Quiz
+# Venezuela Quiz 	
+:iphone: :video_game:
 
 ## 🚀 Tecnologías utilizadas
 -  React Native
