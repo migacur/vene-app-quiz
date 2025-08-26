@@ -6,7 +6,7 @@
 -  Typescript.
 
 ## ℹ️ Información sobre el juego
--  +1000 Preguntas en su mayoría relacionadas a Venezuela.
+-  +1000 Preguntas (relacionadas a Venezuela en su mayoría).
 -  5 comodines diferentes.
 -  Recompensas por responder rápido y correctamente.
 
